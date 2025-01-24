@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}Zohaib Traders{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid my-4 px-0">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="max-width: 1200px; margin: auto;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/quality.png" class="d-block w-100" alt="Random Image 1" style="height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 24px;">Quality</h5>
+                    <p>"Every product at Zohaib Traders meets the highest industry standards for durability and performance."</p>        
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/inno.webp" class="d-block w-100" alt="Random Image 2" style="height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 24px;">Innovative Solutions</h5>
+                    <p>" Our advanced automotive products are designed to enhance safety and reliability on the road"</p>  
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/3rd.jpg" class="d-block w-100" alt="Random Image 3" style="height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-size: 24px;">Reliability</h5>
+                    <p>"At Zohaib Traders, we stand by our products, ensuring they perform consistently under any conditions"</p>  
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/paints.jpg" class="d-block w-100" alt="Exhaust Systems" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Car Paints</h5> <!-- Title added here -->
+                    <p class="card-text">"Achieve professional-grade results with our easy-to-use car paints, perfect for enthusiasts and DIYers alike!"</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/rims.jpg" class="d-block w-100" alt="Car Rims" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Car Rims</h5> <!-- Title added here -->
+                    <p class="card-text">Discover premium car rims designed for durability and elegance. Give your car the upgrade it deserves with rims that reflect your unique style.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/lights.jpg" class="d-block w-100" alt="Headlights" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Headlights</h5> <!-- Title added here -->
+                    <p class="card-text">Brighten your path with our high-performance headlights. Engineered for clarity and style, they enhance visibility and give your car a modern edge.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/exhuast.jpg" class="d-block w-100" alt="Exhaust Systems" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Exhaust Systems</h5> <!-- Title added here -->
+                    <p class="card-text">Enhance your engine’s performance with our top-quality exhaust systems. Designed for optimal flow and sound, they’ll give your ride the roar it deserves.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/suspension.jpg" class="d-block w-100" alt="Suspension Systems" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Suspension Systems</h5> <!-- Title added here -->
+                    <p class="card-text">Upgrade your car’s handling and comfort with our advanced suspension systems. Engineered for stability, they ensure a smooth ride on any surface.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/seats.jpg" class="d-block w-100" alt="Car Seats" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Car Seats</h5> <!-- Title added here -->
+                    <p class="card-text">Transform your driving experience with our luxurious car seats. Designed for maximum comfort and support, they add a touch of elegance to your interior.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card shadow-sm" style="height: 100%;">
+                <img src="/static/brake.jpg" class="d-block w-100" alt="Brake Systems" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Brake Systems</h5> <!-- Title added here -->
+                    <p class="card-text">Ensure safety with our high-performance brake systems. Built for reliability and responsiveness, they give you peace of mind on every journey.</p>
+                    <div class="mt-auto">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
